@@ -1,0 +1,720 @@
+﻿body {
+    font-size: 14px;
+    margin: 0px auto;
+}
+/*TOP BAR*/
+
+.top_bar {
+    background-color: #8a67ab;
+    width: 100%;
+    height: 100%;
+}
+
+    .top_bar ul {
+        margin-left: -30px;
+    }
+
+    .top_bar .top-bar-left li {
+        list-style: none;
+        float: left;
+        padding-right: 20px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .top_bar .top-bar-right li {
+        list-style: none;
+        float: right;
+        padding-left: 20px;
+        border-right: 1px solid #a186be;
+        padding-right: 20px;
+        height: 40px;
+        padding-top: 10px;
+    }
+
+    .top_bar .top-bar-right a {
+        color: white;
+    }
+   
+/*END*/
+
+/*MENU*/
+.menu {
+    height: 100px;
+    line-height: 15px;
+}
+
+
+    .menu img {
+        margin-top: 20px;
+    }
+
+
+    .menu ul li span {
+        color: black;
+        padding-right: 60px;
+    }
+
+
+@media (min-width:1200px) {
+    .menu .col-sm-9 ul li a {
+        color: black;
+        padding-right: 50px;
+    }
+
+    .menu ul li {
+        list-style: none;
+        float: left;
+        margin-top: 40px;
+    }
+
+    .menu i {
+        border-radius: 50%;
+        background-color: #8a67ab;
+        color: white;
+        padding: 8px;
+    }
+
+    .menu .menu-icon {
+        float: right;
+        margin-top: 15px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .menu .col-sm-9 ul li a {
+        color: black;
+        padding-right: 25px;
+    }
+
+    .menu ul li {
+        list-style: none;
+        float: left;
+        margin-top: 40px;
+    }
+
+    .menu i {
+        border-radius: 50%;
+        background-color: #8a67ab;
+        color: white;
+        padding: 8px;
+    }
+
+    .menu .menu-icon {
+        float: right;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width:991px) {
+    .menu .logo {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+        .menu .logo img {
+            display: block;
+            margin: auto;
+        }
+
+    .menu .down-menu ul li {
+        list-style: none;
+        float: right;
+        color: white;
+        border-left: 1px solid #a186be;
+        margin-right: 2.5em;
+        line-height: 46px;
+        padding-left: 25px;
+    }
+
+    .menu .down-menu {
+        background-color: #8a67ab;
+        margin-bottom: 20px;
+    }
+
+        .menu .down-menu p {
+            margin-left: 50px;
+            margin-top: 15px;
+        }
+
+        .menu .down-menu .col-sm-4 i {
+            margin-top: 16px;
+            margin-left: 30px;
+        }
+}
+/*END*/
+
+/*BANNER*/
+.banner {
+    padding-top: 14px;
+}
+
+    .banner img {
+        width: 100%;
+    }
+
+    .banner #rcorners4 {
+        border-radius: 25px;
+        background: #f3cb5e;
+        width: 45px;
+        height: 45px;
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        padding: 16px;
+        margin-top: -50px;
+        color: white;
+        user-select: none;
+        -webkit-user-select: none;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+@media (max-width:992px) {
+    .carousel-indicators .active {
+        background-color: #f3cb5e;
+    }
+
+    .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        background-color: white;
+    }
+}
+/*END*/
+
+/*COURSES*/
+.courses {
+    height: 100%;
+    background-image: url(bg_02.jpg);
+    padding-bottom: 40px;
+}
+
+    .courses a {
+        color: #8a67ab;
+    }
+
+    .courses h2 {
+        line-height: 50px;
+    }
+
+    .courses .head {
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+
+    .courses .container .img2 {
+        border-radius: 50%;
+        width: 94px;
+        height: 94px;
+        padding: 31px;
+    }
+
+
+@media (min-width:993px) {
+    .courses .container .img1 {
+        border-radius: 50%;
+        padding: 2px;
+        width: 100px;
+        height: 100px;
+        float: left;
+    }
+
+    .courses .chi-tiet {
+        margin-left: 115px;
+    }
+}
+
+@media (max-width:992px) {
+    .courses .col-xl-4 {
+        text-align: center;
+    }
+
+    .courses .container .img1 {
+        border-radius: 50%;
+        padding: 2px;
+        width: 100px;
+        height: 100px;
+        display: block;
+        margin: auto;
+    }
+
+    .courses .container .img2 {
+        border-radius: 50%;
+        width: 94px;
+        height: 94px;
+        padding: 31px;
+    }
+
+    .courses .chi-tiet {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .courses .carousel-indicators .active {
+        background-color: #f3cb5e;
+    }
+
+    .courses .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        background-color: gray;
+    }
+}
+/*END*/
+
+/*WHAT WE HAVE*/
+.what_we_have {
+    width: 100%;
+    height: 100%;
+}
+
+    .what_we_have .container span {
+        color: #f3cb5e;
+    }
+
+    .what_we_have .parallax {
+        /* The image used */
+        background-image: url("img1_04.jpg");
+        /* Set a specific height */
+        min-height: 500px;
+        /* Create the parallax scrolling effect */
+        background-attachment: unset;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+        .what_we_have .parallax h2 {
+            color: white;
+            text-align: center;
+            padding-top: 85px;
+        }
+
+        .what_we_have .parallax h5 {
+            color: white;
+            text-align: center;
+            opacity: 0.5;
+        }
+
+        .what_we_have .parallax p {
+            color: white;
+            text-align: center;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+    .what_we_have .container .row .col-lg-3 {
+        text-align: center;
+    }
+
+        .what_we_have .container .row .col-lg-3 img {
+            margin-top: 75px;
+        }
+
+    .what_we_have img {
+        opacity: 0.5;
+    }
+
+        .what_we_have img:hover {
+            opacity: 1;
+        }
+
+    .what_we_have h5:hover {
+        opacity: 1;
+    }
+
+    .what_we_have h1:hover {
+        font-weight: bold;
+    }
+
+@media (max-width:992px) {
+    .what_we_have .container .row .col-xs-3 {
+        text-align: center;
+    }
+
+        .what_we_have .container .row .col-xs-3 img {
+            margin-top: 75px;
+        }
+
+    .what_we_have .parallax h2 {
+        font-size: 20px;
+    }
+}
+/*END*/
+
+/*FEATURE COURSES*/
+.feature_courses {
+    width: 100%;
+    height: 100%;
+}
+
+    .feature_courses .container img {
+        width: 100%;
+    }
+
+    .feature_courses a {
+        color: black;
+        text-decoration: none;
+    }
+
+
+    .feature_courses .head {
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+
+    .feature_courses .button {
+        text-align: center;
+        color: white;
+        padding: 10px 20px 10px 20px;
+        border-radius: 5px;
+    }
+
+    .feature_courses .col-lg-4 {
+        margin-bottom: 60px;
+    }
+
+    .feature_courses .sale-price {
+        color: #ff4026;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    .feature_courses .old-price {
+        text-decoration: line-through;
+        color: #838383;
+        display: inline;
+        margin-left: 10px;
+        border-left: 1.5px solid #838383;
+        padding-left: 15px;
+    }
+
+    .feature_courses #rcorners4 {
+        background: #f3cb5e;
+        width: 45px;
+        height: 45px;
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        padding: 10px;
+        margin-top: -50px;
+        color: white;
+        user-select: none;
+        -webkit-user-select: none;
+    }
+
+.button {
+    opacity: 0.9;
+}
+
+    .button:hover {
+        opacity: 1;
+    }
+
+#rcorners4:hover {
+    opacity: 1;
+}
+
+a:hover {
+    color: #8a67ab;
+}
+/*END*/
+
+/*COMMENTS*/
+.comments {
+    width: 100%;
+    height: 100%;
+}
+
+    .comments .parallax {
+        /* The image used */
+        background-image: url("hvnj_02.jpg");
+        /* Set a specific height */
+        min-height: 500px;
+        /* Create the parallax scrolling effect */
+        background-attachment: unset;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+        .comments .parallax h2 {
+            color: white;
+            text-align: center;
+            padding-top: 85px;
+        }
+
+        .comments .parallax p {
+            color: white;
+            text-align: center;
+            opacity: 0.7;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+
+        .comments .parallax .img3 {
+            text-align: center;
+        }
+
+        .comments .parallax span {
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+    .comments img {
+        opacity: 0.5;
+    }
+
+        .comments img:hover {
+            opacity: 1;
+            transform: scale(1.2);
+        }
+/*END*/
+
+/*NEWEST EVENT*/
+.newest_event {
+    width: 100%;
+    height: 100%;
+}
+    .newest_event .head {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .newest_event #rcorners4 {
+        border: 2px solid #f3cb5e;
+        width: 45px;
+        height: 45px;
+        cursor: pointer;
+        color: #f3cb5e;
+        user-select: none;
+        -webkit-user-select: none;
+    }
+    .newest_event .container .carousel-item img{
+        width:100%;
+    }
+    .newest_event .container .content-left {
+        width: 100%;
+        background-color: black;
+        opacity: 0.7;
+        height: 80px;
+        position: absolute;
+        bottom: 0;
+        color: white;
+        line-height: 20px;
+    }
+    .newest_event .container .prev-next {
+        position: absolute;
+        right: 60px;
+        bottom: 60px;
+    }
+    .newest_event .container .newest-right .content-right {
+        padding-bottom: 29px;
+        padding-left:135px;
+    }
+    .newest_event .container .newest-right img {
+        float: left;
+        padding-right:15px;
+    }
+    .newest_event .container .newest-right .img-content {
+        position: relative;
+    }
+    .newest_event .container .newest-right .content-right p{
+        overflow:hidden;
+        height:63px;
+    }
+    .newest_event .container .newest-right .img-content .content {
+        position: absolute;
+        top: 91px;
+        width: 120px;
+        height: 30px;
+        text-align: center;
+        background-color: #f3cb5e;
+        color: white;
+        line-height: 30px;
+        font-size: 16px;
+    }
+    .newest_event .container .newest-right a{
+        color:black;
+        text-decoration:none;
+        font-size:16px;
+    }
+    .newest_event .container .newest-right a:hover {
+        color: #8a67ab;
+    }
+    @media (max-width:992px) {
+        .newest_event .container .carousel-item img {
+            width: 100%;
+            margin-bottom:15px;
+        }
+    }
+/*END*/
+
+/*SCHOLARSHIP*/
+.scholarship {
+    width: 100%;
+    height: 100%;
+    background-color: #8a67ab;
+}
+
+    .scholarship h3 {
+        line-height: 85px;
+    }
+
+    .scholarship p {
+        border: 2px solid white;
+        text-align: center;
+        margin-top: 25px;
+        padding: 10px 10px 10px 10px;
+        background-color: #8a67ab;
+        color: white;
+        width: 120px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .scholarship a {
+        text-decoration: none;
+    }
+
+@media (max-width:992px) {
+    .scholarship .row {
+        text-align: center;
+    }
+
+    .scholarship a {
+        display: block;
+        margin: auto;
+    }
+
+    .scholarship h3 {
+        line-height: 55px;
+        font-size: 32px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+/*END*/
+
+/*BRAND*/
+.brand {
+    width: 100%;
+    height: 100%;
+}
+
+    .brand .container {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+@media (min-width:1200px) {
+    .brand img {
+        padding-right: 40px;
+    }
+}
+
+@media (max-width:991px) and (min-width:575px) {
+    .brand img {
+        padding-right: 15px;
+        margin-left: 40px;
+    }
+}
+
+@media (max-width:576px) {
+    .brand .row {
+        margin-left: 15px;
+    }
+}
+/*END*/
+
+/*FOOTER*/
+.footer {
+    width: 100%;
+    height: 100%;
+    background-color: #181818;
+}
+
+    .footer .up-footer {
+        color: #898989;
+    }
+
+        .footer .up-footer .content {
+            margin-left: 25px;
+            width: 90%;
+        }
+
+        .footer .up-footer i {
+            float: left;
+            margin-top: 5px;
+        }
+
+        .footer .up-footer ul li {
+            list-style: none;
+            margin-top: 20px;
+        }
+
+            .footer .up-footer ul li a {
+                color: #898989;
+                text-decoration: none;
+            }
+
+    .footer .down-footer {
+        color: #898989;
+    }
+
+        .footer .down-footer ul li {
+            list-style: none;
+            float: left;
+            margin-top: 15px;
+        }
+
+        .footer .down-footer p {
+            margin-top: 15px;
+        }
+
+@media (min-width:992px) {
+    .footer .down-footer ul li a {
+        text-decoration: none;
+        color: #898989;
+        padding-right: 45px;
+    }
+}
+
+@media (max-width:991px) and (min-width:768px) {
+    .footer .down-footer ul li {
+        list-style: none;
+        float: left;
+    }
+
+        .footer .down-footer ul li a {
+            text-decoration: none;
+            color: #898989;
+            padding-right: 35px;
+            margin-left: 30px;
+        }
+
+    .footer .down-footer .row {
+        text-align: center;
+    }
+}
+
+@media (max-width:767px) {
+    .footer .down-footer ul li {
+        list-style: none;
+        float: left;
+        margin-left: 3px;
+    }
+
+        .footer .down-footer ul li a {
+            text-decoration: none;
+            color: #898989;
+            padding-right: 12px;
+        }
+
+    .footer .down-footer .row {
+        text-align: center;
+    }
+}
+/*END*/

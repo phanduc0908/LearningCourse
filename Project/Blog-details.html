@@ -1,0 +1,762 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Blog-details</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="Blog-details.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.js"></script>
+    <script src="Script2.js"></script>
+</head>
+<body>
+    <div class="top_bar d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 ">
+                    <ul class="top-bar-left">
+                        <li>
+                            <a href="#" style="color:white">
+                                <i class="fas fa-phone"></i> 08.7900.6950
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" style="color:white">
+                                <i class="far fa-envelope"></i> support@bizweb.vn
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" style="color:white">
+                                <i class="far fa-clock"></i> 8:00 AM - 22:00 PM
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <ul class="top-bar-right">
+                        <li class="">
+                            <a href="Login.html" style="color:white">Đăng nhập</a>
+                        </li>
+                        <li class="" style="border-left: 1px solid #a186be">
+                            <a href="Register.html" style="color:white"> Đăng kí</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="top_bar d-block d-lg-none">
+        <div class="row">
+            <div class="col-sm-8 d-none d-md-block col-md-8">
+                <ul class="top-bar-left">
+                    <li>
+                        <a href="#" style="color:white; margin-left: 15px;">
+                            <i class="fas fa-phone"></i> 08.7900.6950
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" style="color:white">
+                            <i class="far fa-envelope"></i> support@bizweb.vn
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" style="color:white">
+                            <i class="far fa-clock"></i> 8:00 AM - 22:00 PM
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-4 col-12 col-sm-12 col-md-4">
+                <ul class="top-bar-right">
+                    <li class="">
+                        <a href="Login.html" style="color:white">Đăng nhập</a>
+                    </li>
+                    <li class="" style="border-left: 1px solid #a186be">
+                        <a href="Register.html" style="color:white"> Đăng kí</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="logo_03.png" />
+                </div>
+                <div class="col-sm-9">
+                    <ul>
+                        <li class="">
+                            <a href="HomePage.html">
+                                Trang chủ
+                            </a>
+                        </li>
+                        <li class="">
+                            <div class="dropdown">
+                                <span class="dropdown-toggle" data-toggle="dropdown">
+                                    Giới thiệu
+                                </span>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Link 1</a>
+                                    <a class="dropdown-item" href="#">Link 2</a>
+                                    <a class="dropdown-item" href="#">Link 3</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="">
+                            <div class="dropdown">
+                                <span class="dropdown-toggle" data-toggle="dropdown">
+                                    Khóa học
+                                </span>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Link 1</a>
+                                    <a class="dropdown-item" href="#">Link 2</a>
+                                    <a class="dropdown-item" href="#">Link 3</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="">
+                            <a href="Blog.html">
+                                Sự kiện
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="#">
+                                Tin tức
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="#">
+                                Liên hệ
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="menu-icon">
+                        <a href="#" style="margin-right:15px">
+                            <i class="fas fa-search"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu d-block d-lg-none">
+        <div class="logo">
+            <img src="logo_03.png" />
+        </div>
+        <div class="down-menu d-block d-sm-block d-lg-none">
+            <div class="row">
+                <div class="col-sm-4 col-4">
+                    <div class="dropdown" style="float:left">
+                        <span data-toggle="dropdown">
+                            <i class="fas fa-bars" style="color:white"></i>
+                        </span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Link 1</a>
+                            <a class="dropdown-item" href="#">Link 2</a>
+                            <a class="dropdown-item" href="#">Link 3</a>
+                        </div>
+                    </div>
+                    <p style="color:white; padding-left:10px">MENU</p>
+                </div>
+                <div class="col-sm-8 col-8">
+                    <ul class="menu-icon">
+                        <li>
+                            <i class="fas fa-shopping-cart"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-search"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="image-tittle">
+        <div class="contact">
+            <p>SỰ KIỆN NỔI BẬT</p>
+        </div>
+    </div>
+
+    <div class="tittle">
+        <div class="container">
+            <ul>
+                <li>
+                    <a href="HomePage.html">
+                        Trang chủ
+                    </a>
+                </li>
+                <li><i class="fa fa-angle-right"></i></li>
+                <li>
+                    <a href="Blog.html">
+                        Sự kiện
+                    </a>
+                </li>
+                <li><i class="fa fa-angle-right"></i></li>
+                <li>
+                    <a href="Blog-details.html">
+                        Hướng dẫn đọc lưu loát Tiếng Anh chỉ trong 1 tuần
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="blog-content d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="up-blog">
+                        <div class="top">
+                            <i class="fas fa-bars"></i>
+                            <p><b>DANH MỤC TIN TỨC</b></p>
+                        </div>
+                        <ul>
+                            <li><a href="#">Tin tức tuyển sinh</a></li>
+                            <li><a href="#">Du học nước ngoài</a></li>
+                            <li><a href="#">Chuyên gia giáo dục</a></li>
+                            <li><a href="#">Tin tức tuyển sinh</a></li>
+                            <li><a href="#">Chuyện học đường</a></li>
+                            <li><a href="#">Khóa học miễn phí</a></li>
+                            <li><a href="#">Tin giáo dục khác</a></li>
+                        </ul>
+                    </div>
+                    <div class="down-blog">
+                        <div class="top">
+                            <i class="fas fa-volume-up"></i>
+                            <p><b>TIN TỨC LIÊN QUAN</b></p>
+                        </div>
+                        <ul>
+                            <li>
+                                <img src="ttlq1_03.jpg" />
+                                <p>
+                                    <a href="#">
+                                        Hướng dẫn cách học
+                                        Tiếng Anh hiệu quả
+                                    </a>
+                                </p>
+                                <p><i>25/12/2015</i></p>
+                            </li>
+                            <li>
+                                <img src="ttlq2_03.jpg" />
+                                <p>
+                                    <a href="#">
+                                        Tư vấn du học Anh
+                                        với 3 điều cần biết
+                                    </a>
+                                </p>
+                                <p><i>25/12/2015</i></p>
+                            </li>
+                            <li>
+                                <img src="ttlq3_03.jpg" />
+                                <p>
+                                    <a href="#">
+                                        Chương trình đào tạo
+                                        cấp tốc Tiếng Hàn
+                                    </a>
+                                </p>
+                                <p><i>25/12/2015</i></p>
+                            </li>
+                            <li>
+                                <img src="ttlq4_03.jpg" />
+                                <p>
+                                    <a href="#">
+                                        Khởi nghiệp từ việc
+                                        đi du học
+                                    </a>
+                                </p>
+                                <p><i>25/12/2015</i></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="blog-item">
+                        <img src="blog1_03.jpg" />
+                        <h3>Hướng dẫn đọc lưu loát Tiếng Anh chỉ trong 1 tuần</h3>
+                        <ul>
+                            <li>
+                                <i class="far fa-user"></i>
+                                <p>Post by admin</p>
+                            </li>
+                            <li>
+                                <i class="far fa-clock"></i>
+                                <p>25/12/2015</p>
+                            </li>
+                        </ul>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit.</p>
+                        <p>
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+
+                            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+                        </p>
+                        <div class="small-image">
+                            <img src="blog-details1_03.jpg" style="width:70%" />
+                        </div>
+                        <p>
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+
+                            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+                        </p>
+
+                    </div>
+                    <div class="share">
+                        <div class="row" style="margin-left:0">
+                            <div class="tags col-lg-6">
+                                <p>
+                                    TAGS: <a href="#">khóa học</a>, <a href="#">tiếng anh</a>, <a href="#">học bổng</a>, <a href="#">giao tiếp</a> ...
+                                </p>
+                            </div>
+                            <div class="socials col-lg-6">
+                                <div id="instagram">
+                                    <i class="fab fa-instagram"></i>
+                                    <a href="#">Instagram</a>
+                                </div>
+                                <div id="google">
+                                    <i class="fab fa-google-plus-g"></i>
+                                    <a href="#">Google</a>
+                                </div>
+                                <div id="twitter">
+                                    <i class="fab fa-twitter"></i>
+                                    <a href="#">Twitter</a>
+                                </div>
+                                <div id="facebook">
+                                    <i class="fab fa-facebook"></i>
+                                    <a href="#">Facebook</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comments">
+                        <div class="container">
+                            <form class="comments-form">
+                                <fieldset>
+                                    <legend>VIẾT BÌNH LUẬN CỦA BẠN: </legend>
+                                    <div class="row">
+                                        <div class="name">
+                                            <label for="sname">Họ và tên: *</label>
+                                            <br />
+                                            <input id="sname" name="name" minlength="2" type="text" />
+                                        </div>
+                                        <div class="email">
+                                            <label for="semail">Địa chỉ email: *</label>
+                                            <br />
+                                            <input id="semail" name="email" type="email" />
+                                        </div>
+                                    </div>
+                                    <div class="comment">
+                                        <label for="scomment">Viết bình luận: </label>
+                                        <br />
+                                        <textarea id="scomment"></textarea>
+                                    </div>
+                                    <input class="submit" type="submit" value="Gửi bình luận" />
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="blog-content d-block d-lg-none">
+        <div class="container">
+            <div class="row .flex-md-column">
+                <div class="col-lg-3 p-2 bd-highlight">
+                    <div class="up-blog">
+                        <div class="top">
+                            <i class="fas fa-bars"></i>
+                            <p><b>DANH MỤC TIN TỨC</b></p>
+                        </div>
+                        <ul>
+                            <li><a href="#">Tin tức tuyển sinh</a></li>
+                            <li><a href="#">Du học nước ngoài</a></li>
+                            <li><a href="#">Chuyên gia giáo dục</a></li>
+                            <li><a href="#">Tin tức tuyển sinh</a></li>
+                            <li><a href="#">Chuyện học đường</a></li>
+                            <li><a href="#">Khóa học miễn phí</a></li>
+                            <li><a href="#">Tin giáo dục khác</a></li>
+                        </ul>
+                    </div>
+                    <div class="down-blog">
+                        <div class="top">
+                            <i class="fas fa-volume-up"></i>
+                            <p><b>TIN TỨC LIÊN QUAN</b></p>
+                        </div>
+                        <ul>
+                            <li>
+                                <img src="ttlq1_03.jpg" />
+                                <p>
+                                    <a href="#">
+                                        Hướng dẫn cách học
+                                        Tiếng Anh hiệu quả
+                                    </a>
+                                </p>
+                                <p><i>25/12/2015</i></p>
+                            </li>
+                            <li>
+                                <img src="ttlq2_03.jpg" />
+                                <p>
+                                    <a href="#">
+                                        Tư vấn du học Anh
+                                        với 3 điều cần biết
+                                    </a>
+                                </p>
+                                <p><i>25/12/2015</i></p>
+                            </li>
+                            <li>
+                                <img src="ttlq3_03.jpg" />
+                                <p>
+                                    <a href="#">
+                                        Chương trình đào tạo
+                                        cấp tốc Tiếng Hàn
+                                    </a>
+                                </p>
+                                <p><i>25/12/2015</i></p>
+                            </li>
+                            <li>
+                                <img src="ttlq4_03.jpg" />
+                                <p>
+                                    <a href="#">
+                                        Khởi nghiệp từ việc
+                                        đi du học
+                                    </a>
+                                </p>
+                                <p><i>25/12/2015</i></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-9 p-2 bd-highlight">
+                    <div class="blog-item">
+                        <img src="blog1_03.jpg" />
+                        <h3>Hướng dẫn đọc lưu loát Tiếng Anh chỉ trong 1 tuần</h3>
+                        <ul>
+                            <li>
+                                <i class="far fa-user"></i>
+                                <p>Post by admin</p>
+                            </li>
+                            <li>
+                                <i class="far fa-clock"></i>
+                                <p>25/12/2015</p>
+                            </li>
+                        </ul>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit.</p>
+                        <p>
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+
+                            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+                        </p>
+                        <div class="small-image">
+                            <img src="blog-details1_03.jpg" style="width:70%" />
+                        </div>
+                        <p>
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+
+                            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+
+                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+                        </p>
+
+                    </div>
+                    <div class="share">
+                        <div class="tags col-12">
+                            <p>
+                                TAGS: <a href="#">khóa học</a>, <a href="#">tiếng anh</a>, <a href="#">học bổng</a>, <a href="#">giao tiếp</a> ...
+                            </p>
+                        </div>
+                        <div class="socials">
+                            <div class="row">
+                                <div id="instagram">
+                                    <i class="fab fa-instagram"></i>
+                                    <a href="#">Instagram</a>
+                                </div>
+                                <div id="google">
+                                    <i class="fab fa-google-plus-g"></i>
+                                    <a href="#">Google</a>
+                                </div>
+                                <div id="twitter">
+                                    <i class="fab fa-twitter"></i>
+                                    <a href="#">Twitter</a>
+                                </div>
+                                <div id="facebook">
+                                    <i class="fab fa-facebook"></i>
+                                    <a href="#">Facebook</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comments">
+                        <div class="container">
+                            <form class="comments-form">
+                                <fieldset>
+                                    <legend>VIẾT BÌNH LUẬN CỦA BẠN: </legend>
+                                    <div class="name">
+                                        <label for="sname">Họ và tên: *</label>
+                                        <br />
+                                        <input id="sname" name="name" minlength="2" type="text" />
+                                    </div>
+                                    <div class="email">
+                                        <label for="semail">Địa chỉ email: *</label>
+                                        <br />
+                                        <input id="semail" name="email" type="email" />
+                                    </div>
+                                    <div class="comment">
+                                        <label for="scomment">Viết bình luận: </label>
+                                        <br />
+                                        <textarea id="scomment"></textarea>
+                                    </div>
+                                    <input class="submit" type="submit" value="Gửi bình luận" />
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer d-none d-lg-block">
+        <div class="up-footer">
+            <div class="container" style="border-bottom: 1px solid gray;">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <ul style="margin-left:-40px;">
+                            <li>
+                                <img src="logo2_03.png" style="padding-bottom:20px" />
+                            </li>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="content">
+                                    Tầng 4 - Tòa nhà Hanoi Group - 442 Đội Cấn
+                                    Ba Đình - Hà Nội
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-mobile-alt"></i>
+                                <div class="content">
+                                    (84-4) 66558868 -  (84-4) 37868904
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <div class="content">
+                                    support@bizweb.vn
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="row">
+                            <ul>
+                                <li><h5>TÀI KHOẢN</h5></li>
+                                <li><a href="Register.html">Đăng kí</a></li>
+                                <li><a href="Login.html">Đăng nhập</a></li>
+                                <li><a href="#">Giỏ hàng</a></li>
+                                <li><a href="#">Tìm kiếm</a></li>
+                                <li><a href="Error.html">Tin tức</a></li>
+                            </ul>
+                            <ul>
+                                <li><h5>CHÍNH SÁCH</h5></li>
+                                <li><a href="Error.html">Chính sách mua hàng</a></li>
+                                <li><a href="Error.html">Chính sách đãi ngộ</a></li>
+                                <li><a href="Error.html">Thông tin khách hàng</a></li>
+                                <li><a href="Error.html">Thông tin tuyển dụng</a></li>
+                                <li><a href="Error.html">Đăng kí thành viên</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="row">
+                            <ul>
+                                <li><h5>ĐIỀU KHOẢN</h5></li>
+                                <li><a href="Register.html">Đăng kí tài khoản</a></li>
+                                <li><a href="Error.html">Chính sách bảo hành</a></li>
+                                <li><a href="Error.html">Chính sách đổi trả</a></li>
+                                <li><a href="Error.html">Thông tin cá nhân</a></li>
+                                <li><a href="Error.html">Trung tâm tư vấn</a></li>
+                            </ul>
+                            <ul>
+                                <li><h5>HƯỚNG DẪN</h5></li>
+                                <li><a href="Error.html">Hướng dẫn mua hàng</a></li>
+                                <li><a href="Error.html">Hướng dẫn giao nhận</a></li>
+                                <li><a href="Error.html">Hướng dẫn thanh toán</a></li>
+                                <li><a href="Error.html">Câu hỏi thường gặp</a></li>
+                                <li><a href="Error.html">Điều khoản dịch vụ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="down-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <p>
+                            © 2015 Academi. Cung cấp bởi
+                            <span style="color:white">
+                                Bizweb
+                            </span>
+                        </p>
+                    </div>
+                    <div class="col-lg-7">
+                        <ul>
+                            <li class="">
+                                <a class="" href="HomePage.html">Trang chủ</a>
+                            </li>
+                            <li class="">
+                                <a class="" href="Error.html">Giới thiệu</a>
+                            </li>
+                            <li class="">
+                                <a class="" href="#">Khóa học</a>
+                            </li>
+                            <li class="">
+                                <a class="" href="Blog.html">Sự kiện</a>
+                            </li>
+                            <li class="">
+                                <a class="" href="Error.html">Tin tức</a>
+                            </li>
+                            <li class="">
+                                <a class="" href="Contact.html">Liên hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer d-block d-lg-none">
+        <div class="up-footer" style="border-bottom: 1px solid gray;">
+            <div class="row">
+                <div class="col-md-12" style="margin-left:40px;">
+                    <ul style="margin-left:-40px;">
+                        <li>
+                            <img src="logo2_03.png" style="padding-bottom:20px" />
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="content">
+                                Tầng 4 - Tòa nhà Hanoi Group - 442 Đội Cấn
+                                Ba Đình - Hà Nội
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-mobile-alt"></i>
+                            <div class="content">
+                                (84-4) 66558868 -  (84-4) 37868904
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <div class="content">
+                                support@bizweb.vn
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                        <li><h5>TÀI KHOẢN</h5></li>
+                        <li><a href="Register.html">Đăng kí</a></li>
+                        <li><a href="Login.html">Đăng nhập</a></li>
+                        <li><a href="#">Giỏ hàng</a></li>
+                        <li><a href="#">Tìm kiếm</a></li>
+                        <li><a href="#">Tin tức</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                        <li><h5>CHÍNH SÁCH</h5></li>
+                        <li><a href="#">Chính sách mua hàng</a></li>
+                        <li><a href="#">Chính sách đãi ngộ</a></li>
+                        <li><a href="#">Thông tin khách hàng</a></li>
+                        <li><a href="#">Thông tin tuyển dụng</a></li>
+                        <li><a href="#">Đăng kí thành viên</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                        <li><h5>ĐIỀU KHOẢN</h5></li>
+                        <li><a href="#">Đăng kí tài khoản</a></li>
+                        <li><a href="#">Chính sách bảo hành</a></li>
+                        <li><a href="#">Chính sách đổi trả</a></li>
+                        <li><a href="#">Thông tin cá nhân</a></li>
+                        <li><a href="#">Trung tâm tư vấn</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                        <li><h5>HƯỚNG DẪN</h5></li>
+                        <li><a href="#">Hướng dẫn mua hàng</a></li>
+                        <li><a href="#">Hướng dẫn giao nhận</a></li>
+                        <li><a href="#">Hướng dẫn thanh toán</a></li>
+                        <li><a href="#">Câu hỏi thường gặp</a></li>
+                        <li><a href="#">Điều khoản dịch vụ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="down-footer">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        © 2015 Academi. Cung cấp bởi
+                        <span style="color:white">
+                            Bizweb
+                        </span>
+                    </p>
+                </div>
+                <ul>
+                    <li class="">
+                        <a class="" href="HomePage.html">Trang chủ</a>
+                    </li>
+                    <li class="">
+                        <a class="" href="Error.html">Giới thiệu</a>
+                    </li>
+                    <li class="">
+                        <a class="" href="#">Khóa học</a>
+                    </li>
+                    <li class="">
+                        <a class="" href="Blog.html">Sự kiện</a>
+                    </li>
+                    <li class="">
+                        <a class="" href="Error.html">Tin tức</a>
+                    </li>
+                    <li class="">
+                        <a class="" href="Contact.html">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $(".comments-form").submit(function () {
+                if ($(this).valid()) {
+                    alert("Name: " + $("#sname").val() + "\nEmail: " + $("#semail").val());
+                }
+                else return;
+            })
+        })
+    </script>
+
+</body>
+</html>

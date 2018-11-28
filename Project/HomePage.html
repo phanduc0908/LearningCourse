@@ -1,0 +1,936 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Academi</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="HomePage.css" />
+    <script src="js/popup.js"></script>
+</head>
+<body>
+    <div class="top_bar d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 ">
+                    <ul class="top-bar-left">
+                        <li>
+                            <a href="#" style="color:white">
+                                <i class="fas fa-phone"></i> 08.7900.6950
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" style="color:white">
+                                <i class="far fa-envelope"></i> support@bizweb.vn
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" style="color:white">
+                                <i class="far fa-clock"></i> 8:00 AM - 22:00 PM
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <ul class="top-bar-right">
+                        <li class="">
+                            <a href="Login.html" style="color:white">Đăng nhập</a>
+                        </li>
+                        <li class="" style="border-left: 1px solid #a186be">
+                            <a href="Register.html" style="color:white"> Đăng kí</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="top_bar d-block d-lg-none">
+        <div class="row">
+            <div class="col-sm-8 d-none d-md-block col-md-8">
+                <ul class="top-bar-left">
+                    <li>
+                        <a href="#" style="color:white; margin-left: 15px;">
+                            <i class="fas fa-phone"></i> 08.7900.6950
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" style="color:white">
+                            <i class="far fa-envelope"></i> support@bizweb.vn
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" style="color:white">
+                            <i class="far fa-clock"></i> 8:00 AM - 22:00 PM
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-4 col-12 col-sm-12 col-md-4">
+                <ul class="top-bar-right">
+                    <li class="">
+                        <a href="Login.html" style="color:white">Đăng nhập</a>
+                    </li>
+                    <li class="" style="border-left: 1px solid #a186be">
+                        <a href="Register.html" style="color:white"> Đăng kí</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="logo_03.png" />
+                </div>
+                <div class="col-sm-9">
+                    <ul>
+                        <li class="">
+                            <a href="HomePage.html">
+                                Trang chủ
+                            </a>
+                        </li>
+                        <li class="">
+                            <div class="dropdown">
+                                <span class="dropdown-toggle" data-toggle="dropdown">
+                                    Giới thiệu
+                                </span>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Link 1</a>
+                                    <a class="dropdown-item" href="#">Link 2</a>
+                                    <a class="dropdown-item" href="#">Link 3</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="">
+                            <div class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown">
+                                    Khóa học
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <div class="dropdown">
+                                            <a class="dropdown-item" href="#">Khóa học Tiếng Anh</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Khóa học Tiếng Anh</a></li>
+                                                <li><a class="dropdown-item" href="#">Khóa học Tiếng Anh</a></li>
+                                                <li><a class="dropdown-item" href="#">Khóa học Tiếng Anh</a></li>
+                                                <li><a class="dropdown-item" href="#">Khóa học Tiếng Anh</a></li>
+                                                <li><a class="dropdown-item" href="#">Khóa học Tiếng Anh</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Khóa học Tiếng Anh</a></li>
+                                    <li><a class="dropdown-item" href="#">Khóa học Tiếng Anh</a></li>
+                                    <li><a class="dropdown-item" href="#">Khóa học Tiếng Anh</a></li>
+                                    <li><a class="dropdown-item" href="#">Khóa học Tiếng Anh</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="">
+                            <a href="Blog.html">
+                                Sự kiện
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="Error.html">
+                                Tin tức
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="Contact.html">
+                                Liên hệ
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="menu-icon">
+                        <a href="#" style="margin-right:15px">
+                            <i class="fas fa-search"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="menu d-block d-lg-none">
+        <div class="logo">
+            <img src="logo_03.png" />
+        </div>
+        <div class="down-menu d-block d-sm-block d-lg-none">
+            <div class="row">
+                <div class="col-sm-4 col-4">
+                    <div class="dropdown" style="float:left">
+                        <span data-toggle="dropdown">
+                            <i class="fas fa-bars" style="color:white"></i>
+                        </span>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Link 1</a>
+                            <a class="dropdown-item" href="#">Link 2</a>
+                            <a class="dropdown-item" href="#">Link 3</a>
+                        </div>
+                    </div>
+                    <p style="color:white; padding-left:10px">MENU</p>
+                </div>
+                <div class="col-sm-8 col-8">
+                    <ul class="menu-icon">
+                        <li>
+                            <i class="fas fa-shopping-cart"></i>
+                        </li>
+                        <li>
+                            <i class="fas fa-search"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="banner d-none d-lg-block">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="banner1_02.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img src="banner2_02.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img src="banner3_02.jpg">
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev" id="rcorners4">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next" id="rcorners4">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+    <div class="banner d-block d-lg-none">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="banner1_02.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="banner2_02.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="banner3_02.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="courses d-none d-sm-block">
+        <div class="head" style="text-align:center">
+            <h2 style="text-align:center"> DANH MỤC CÁC KHÓA HỌC</h2>
+            <img src="logo_03.jpg" />
+        </div>
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="img1" style="border: 1px solid #8a67ab;">
+                        <div class="img2" style="background-color:#8a67ab">
+                            <img src="logo1_05.png" />
+                        </div>
+                    </div>
+                    <div class="chi-tiet">
+                        <h4>Thiết kế sáng tạo</h4>
+                        <p>Offering a various of solutions meeting your need no matter what any scale, any kind of business</p>
+                        <a href="#">chi tiết >></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="img1" style="border: 1px solid #f7d05b;">
+                        <div class="img2" style="background-color:#f7d05b">
+                            <img src="logo2_08.png" />
+                        </div>
+                    </div>
+                    <div class="chi-tiet">
+                        <h4>Quản lí tài chính</h4>
+                        <p>Offering a various of solutions meeting your need no matter what any scale, any kind of business</p>
+                        <a href="#">chi tiết >></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="img1" style="border: 1px solid #7accc8;">
+                        <div class="img2" style="background-color:#7accc8">
+                            <img src="logo3_07.png" />
+                        </div>
+                    </div>
+                    <div class="chi-tiet">
+                        <h4>Tiếng anh giao tiếp</h4>
+                        <p>Offering a various of solutions meeting your need no matter what any scale, any kind of business</p>
+                        <a href="#">chi tiết >></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="img1" style="border: 1px solid #c7b299;">
+                        <div class="img2" style="background-color:#c7b299">
+                            <img src="logo4_08.png" />
+                        </div>
+                    </div>
+                    <div class="chi-tiet">
+                        <h4>Lập trình nâng cao</h4>
+                        <p>Offering a various of solutions meeting your need no matter what any scale, any kind of business</p>
+                        <a href="#">chi tiết >></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="img1" style="border: 1px solid #73cb9e;">
+                        <div class="img2" style="background-color:#73cb9e">
+                            <img src="logo5_09.png" />
+                        </div>
+                    </div>
+                    <div class="chi-tiet">
+                        <h4>Thiết kế website</h4>
+                        <p>Offering a various of solutions meeting your need no matter what any scale, any kind of business</p>
+                        <a href="#">chi tiết >></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="img1" style="border: 1px solid #f26d7d;">
+                        <div class="img2" style="background-color:#f26d7d">
+                            <img src="logo6_09.png" />
+                        </div>
+                    </div>
+                    <div class="chi-tiet">
+                        <h4>Nhiếp ảnh cơ bản</h4>
+                        <p>Offering a various of solutions meeting your need no matter what any scale, any kind of business</p>
+                        <a href="#">chi tiết >></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="courses d-block d-sm-none">
+        <div class="head" style="text-align:center">
+            <h2 style="text-align:center"> DANH MỤC CÁC KHÓA HỌC</h2>
+            <img src="logo_03.jpg" />
+        </div>
+        <div class="container">
+            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators2" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleIndicators2" data-slide-to="4"></li>
+                    <li data-target="#carouselExampleIndicators2" data-slide-to="5"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="col-12">
+                            <div class="img1" style="border: 1px solid #8a67ab;">
+                                <div class="img2" style="background-color:#8a67ab">
+                                    <img src="logo1_05.png" />
+                                </div>
+                            </div>
+                            <div class="chi-tiet">
+                                <h4>Thiết kế sáng tạo</h4>
+                                <p>Offering a various of solutions meeting your need no matter what any scale, any kind of business</p>
+                                <a href="#">chi tiết >></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="img1" style="border: 1px solid #8a67ab;">
+                            <div class="img2" style="background-color:#8a67ab">
+                                <img src="logo1_05.png" />
+                            </div>
+                        </div>
+                        <div class="chi-tiet">
+                            <h4>Thiết kế sáng tạo</h4>
+                            <p>Offering a various of solutions meeting your need no matter what any scale, any kind of business</p>
+                            <a href="#">chi tiết >></a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="img1" style="border: 1px solid #8a67ab;">
+                            <div class="img2" style="background-color:#8a67ab">
+                                <img src="logo1_05.png" />
+                            </div>
+                        </div>
+                        <div class="chi-tiet">
+                            <h4>Thiết kế sáng tạo</h4>
+                            <p>Offering a various of solutions meeting your need no matter what any scale, any kind of business</p>
+                            <a href="#">chi tiết >></a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="img1" style="border: 1px solid #8a67ab;">
+                            <div class="img2" style="background-color:#8a67ab">
+                                <img src="logo1_05.png" />
+                            </div>
+                        </div>
+                        <div class="chi-tiet">
+                            <h4>Thiết kế sáng tạo</h4>
+                            <p>Offering a various of solutions meeting your need no matter what any scale, any kind of business</p>
+                            <a href="#">chi tiết >></a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="img1" style="border: 1px solid #8a67ab;">
+                            <div class="img2" style="background-color:#8a67ab">
+                                <img src="logo1_05.png" />
+                            </div>
+                        </div>
+                        <div class="chi-tiet">
+                            <h4>Thiết kế sáng tạo</h4>
+                            <p>Offering a various of solutions meeting your need no matter what any scale, any kind of business</p>
+                            <a href="#">chi tiết >></a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="img1" style="border: 1px solid #8a67ab;">
+                            <div class="img2" style="background-color:#8a67ab">
+                                <img src="logo1_05.png" />
+                            </div>
+                        </div>
+                        <div class="chi-tiet">
+                            <h4>Thiết kế sáng tạo</h4>
+                            <p>Offering a various of solutions meeting your need no matter what any scale, any kind of business</p>
+                            <a href="#">chi tiết >></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="what_we_have">
+        <div class="parallax">
+            <h2>CHÚNG TÔI CÓ NHỮNG GÌ ?</h2>
+
+            <p>Với hơn 10 năm kinh nghiệm trong lĩnh vực đào tạo và giảng dạy, chúng tôi luôn tự hào là một trong những đơn vị tiên phong<p>
+                tại Việt Nam áp dụng chương trình đào tạo bài bản và chất lượng nhất
+            </p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-6">
+                        <img src="icon1_hover_03.png" />
+                        <h1><span>1280</span></h1>
+                        <h5>Học viên</h5>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <img src="icon2_hover_03.png" />
+                        <h1><span>740</span></h1>
+                        <h5>Khóa học</h5>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <img src="icon3_hover_03.png" />
+                        <h1><span>96</span></h1>
+                        <h5>Giảng viên</h5>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <img src="icon4_hover_03.png" />
+                        <h1><span>12</span></h1>
+                        <h5>Giải thưởng</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="feature_courses">
+        <div class="head" style="text-align:center">
+            <h2 style="text-align:center"> KHÓA HỌC NỔI BẬT</h2>
+            <img src="logo_03.jpg" />
+        </div>
+        <div id="demo2" class="carousel slide" data-ride="carousel">
+            <!-- The slideshow -->
+            <div class="container">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-6 col-12">
+                                <img src="kh1_03.jpg">
+                                <div class="sale-price">
+                                    3.200.000đ
+                                    <div class="old-price">
+                                        4.200.000đ
+                                    </div>
+                                </div>
+                                <a href="#"><h6>Khóa học Tiếng Anh giao tiếp cơ bản</h6></a>
+                                <p>Economics is the study of how societies allocate limited resources to achieve competing ends. Using both and deductive methods, economics, organizational ...</p>
+
+                                <a href="#" class="button" style="background-color:#6e4892">Mua ngay</a>
+                                <a href="#" class="button" style="background-color:#f3cb5e">Chi tiết</a>
+                            </div>
+                            <div class="col-lg-4 d-none d-lg-block">
+                                <img src="kh2_05.jpg">
+                                <div class="sale-price">
+                                    3.200.000đ
+                                    <div class="old-price">
+                                        4.200.000đ
+                                    </div>
+                                </div>
+                                <a href="#"><h6>Khóa học kỹ năng mềm cơ bản</h6></a>
+                                <p>Economics is the study of how societies allocate limited resources to achieve competing ends. Using both and deductive methods, economics, organizational ...</p>
+
+                                <a href="#" class="button" style="background-color:#6e4892">Mua ngay</a>
+                                <a href="#" class="button" style="background-color:#f3cb5e">Chi tiết</a>
+                            </div>
+                            <div class="col-lg-4 col-sm-6 d-none d-sm-block">
+                                <img src="kh3_08.jpg">
+                                <div class="sale-price">
+                                    3.200.000đ
+                                    <div class="old-price">
+                                        4.200.000đ
+                                    </div>
+                                </div>
+                                <a href="#"><h6>Khóa học thiết kế Animation Spash</h6></a>
+                                <p>Economics is the study of how societies allocate limited resources to achieve competing ends. Using both and deductive methods, economics, organizational ...</p>
+
+                                <a href="#" class="button" style="background-color:#6e4892">Mua ngay</a>
+                                <a href="#" class="button" style="background-color:#f3cb5e">Chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-6  col-12">
+                                <img src="kh1_03.jpg">
+                                <div class="sale-price">
+                                    3.200.000đ
+                                    <div class="old-price">
+                                        4.200.000đ
+                                    </div>
+                                </div>
+                                <a href="#"><h6>Khóa học Tiếng Anh giao tiếp cơ bản</h6></a>
+                                <p>Economics is the study of how societies allocate limited resources to achieve competing ends. Using both and deductive methods, economics, organizational ...</p>
+
+                                <a href="#" class="button" style="background-color:#6e4892">Mua ngay</a>
+                                <a href="#" class="button" style="background-color:#f3cb5e">Chi tiết</a>
+                            </div>
+                            <div class="col-lg-4 d-none d-lg-block">
+                                <img src="kh2_05.jpg">
+                                <div class="sale-price">
+                                    3.200.000đ
+                                    <div class="old-price">
+                                        4.200.000đ
+                                    </div>
+                                </div>
+                                <a href="#"><h6>Khóa học kỹ năng mềm cơ bản</h6></a>
+                                <p>Economics is the study of how societies allocate limited resources to achieve competing ends. Using both and deductive methods, economics, organizational ...</p>
+
+                                <a href="#" class="button" style="background-color:#6e4892">Mua ngay</a>
+                                <a href="#" class="button" style="background-color:#f3cb5e">Chi tiết</a>
+                            </div>
+                            <div class="col-lg-4 col-sm-6 d-none d-sm-block">
+                                <img src="kh3_08.jpg">
+                                <div class="sale-price">
+                                    3.200.000đ
+                                    <div class="old-price">
+                                        4.200.000đ
+                                    </div>
+                                </div>
+                                <a href="#"><h6>Khóa học thiết kế Animation Spash</h6></a>
+                                <p>Economics is the study of how societies allocate limited resources to achieve competing ends. Using both and deductive methods, economics, organizational ...</p>
+
+                                <a href="#" class="button" style="background-color:#6e4892">Mua ngay</a>
+                                <a href="#" class="button" style="background-color:#f3cb5e">Chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#demo2" data-slide="prev" id="rcorners4">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo2" data-slide="next" id="rcorners4">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="comments">
+        <div class="parallax">
+            <h2>
+                HỌC VIÊN NÓI GÌ ?
+            </h2>
+            <div style="text-align:center">
+                <img src="wave_03.png" />
+            </div>
+            <p>
+                "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the
+            <p>
+                system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.
+            </p>
+            <p style="color:#f3cb5e; font-size:20px">Nguyễn Hồng Hạnh</p>
+            <p>Lớp MD01 Tiếng Anh</p>
+            <div class="img3">
+                <span><img src="comment1_03.png" /></span>
+                <span><img src="comment2_03.png" style="width:70px; height:70px" /></span>
+                <span><img src="comment3_03.png" /></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="newest_event">
+        <div class="head" style="text-align:center">
+            <h2 style="text-align:center"> SỰ KIỆN MỚI NHẤT</h2>
+            <img src="logo_03.jpg" />
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div id="demo1" class="carousel slide" data-ride="carousel">
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="sk1_03.jpg">
+                                <div class="content-left">
+                                    <p style="font-size:18px;">Khoá học kỹ năng mềm nâng cao tại Hà Nội</p>
+                                    <i class="fas fa-calendar-alt"> 25/10/2015</i>
+                                    <i class="fas fa-user"> Diệp Nguyễn</i>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="sk2_03.jpg">
+                                <div class="content-left">
+                                    <p style="font-size:18px">Khoá học kỹ năng mềm nâng cao tại Hà Nội</p>
+                                    <i class="fas fa-calendar-alt"> 25/10/2015</i>
+                                    <i class="fas fa-user"> Diệp Nguyễn</i>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="sk3_03.jpg">
+                                <div class="content-left">
+                                    <p style="font-size:18px">Khoá học kỹ năng mềm nâng cao tại Hà Nội</p>
+                                    <i class="fas fa-calendar-alt"> 25/10/2015</i>
+                                    <i class="fas fa-user"> Diệp Nguyễn</i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Left and right controls -->
+                        <div class="prev-next">
+                            <a class="carousel-control-next" href="#demo1" data-slide="prev" id="rcorners4">
+                                <i class="fas fa-angle-left"></i>
+                            </a>
+                            <a class="carousel-control-prev" href="#demo1" data-slide="next" id="rcorners4">
+                                <i class="fas fa-angle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="newest-right">
+                        <div class="img-content">
+                            <img src="skn1_03.jpg" />
+                            <div class="content">
+                                25 THÁNG 8
+                            </div>
+                        </div>
+                        <div class="content-right" style="border-bottom:1px solid gray">
+                            <a href="#">Khóa học Tiếng Anh giao tiếp cơ bản</a>
+                            <p>Economics is the study of how societies allocate limited resources to achieve competing ends. Using both and deductive methods, economics, organizational</p>
+                            <a href="#">Chi tiết >></a>
+                        </div>
+                    </div>
+                    <div class="newest-right" style="padding-top: 29px">
+                        <div class="img-content">
+                            <img src="skn2_03.jpg" />
+                            <div class="content">
+                                25 THÁNG 8
+                            </div>
+                        </div>
+                        <div class="content-right" style="border-bottom:1px solid gray;">
+                            <a href="#">Khóa học Tiếng Anh giao tiếp cơ bản</a>
+                            <p>Economics is the study of how societies allocate limited resources to achieve competing ends. Using both and deductive methods, economics, organizational</p>
+                            <a href="#">Chi tiết >></a>
+                        </div>
+                    </div>
+                    <div class="newest-right" style="padding-top: 29px;">
+                        <div class="img-content">
+                            <img src="skn3_06.jpg" />
+                            <div class="content">
+                                25 THÁNG 8
+                            </div>
+                        </div>
+                        <div class="content-right">
+                            <a href="#">Khóa học Tiếng Anh giao tiếp cơ bản</a>
+                            <p>Economics is the study of how societies allocate limited resources to achieve competing ends. Using both and deductive methods, economics, organizational</p>
+                            <a href="#">Chi tiết >></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scholarship d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10">
+                    <h3>
+                        Đăng kí ngay 50 suất học thiết kế đồ họa miễn phí với <span style="color:#ffea00"> Academi</span>
+                    </h3>
+                </div>
+                <div class="col-lg-2">
+                    <a href="#" style="color:black"><p>Đăng kí</p></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="scholarship d-block d-lg-none">
+        <div class="container">
+            <div class="row">
+                <h3>Đăng kí ngay 50 suất học thiết kế đồ họa miễn phí với <span style="color:#ffea00"> Academi</span></h3>
+                <a href="#" style="color:black"><p>Đăng kí</p></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="brand">
+        <div class="container">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <img src="telenor_03.png" />
+                        <img src="brilliant_13.png" />
+                        <img src="microsoft_10.png" class="d-none d-md-block" />
+                        <img src="nice_05.png" class="d-none d-lg-block" />
+                        <img src="plate_07.png" class="d-none d-lg-block" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer d-none d-lg-block">
+        <div class="up-footer">
+            <div class="container" style="border-bottom: 1px solid gray;">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <ul style="margin-left:-40px;">
+                            <li>
+                                <img src="logo2_03.png" style="padding-bottom:20px" />
+                            </li>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="content">
+                                    Tầng 4 - Tòa nhà Hanoi Group - 442 Đội Cấn
+                                    Ba Đình - Hà Nội
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-mobile-alt"></i>
+                                <div class="content">
+                                    (84-4) 66558868 -  (84-4) 37868904
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <div class="content">
+                                    support@bizweb.vn
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="row">
+                            <ul>
+                                <li><h5>TÀI KHOẢN</h5></li>
+                                <li><a href="Register.html">Đăng kí</a></li>
+                                <li><a href="Login.html">Đăng nhập</a></li>
+                                <li><a href="#">Giỏ hàng</a></li>
+                                <li><a href="#">Tìm kiếm</a></li>
+                                <li><a href="Error.html">Tin tức</a></li>
+                            </ul>
+                            <ul>
+                                <li><h5>CHÍNH SÁCH</h5></li>
+                                <li><a href="Error.html">Chính sách mua hàng</a></li>
+                                <li><a href="Error.html">Chính sách đãi ngộ</a></li>
+                                <li><a href="Error.html">Thông tin khách hàng</a></li>
+                                <li><a href="Error.html">Thông tin tuyển dụng</a></li>
+                                <li><a href="Error.html">Đăng kí thành viên</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="row">
+                            <ul>
+                                <li><h5>ĐIỀU KHOẢN</h5></li>
+                                <li><a href="Register.html">Đăng kí tài khoản</a></li>
+                                <li><a href="Error.html">Chính sách bảo hành</a></li>
+                                <li><a href="Error.html">Chính sách đổi trả</a></li>
+                                <li><a href="Error.html">Thông tin cá nhân</a></li>
+                                <li><a href="Error.html">Trung tâm tư vấn</a></li>
+                            </ul>
+                            <ul>
+                                <li><h5>HƯỚNG DẪN</h5></li>
+                                <li><a href="Error.html">Hướng dẫn mua hàng</a></li>
+                                <li><a href="Error.html">Hướng dẫn giao nhận</a></li>
+                                <li><a href="Error.html">Hướng dẫn thanh toán</a></li>
+                                <li><a href="Error.html">Câu hỏi thường gặp</a></li>
+                                <li><a href="Error.html">Điều khoản dịch vụ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="down-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <p>
+                            © 2015 Academi. Cung cấp bởi
+                            <span style="color:white">
+                                Bizweb
+                            </span>
+                        </p>
+                    </div>
+                    <div class="col-lg-7">
+                        <ul>
+                            <li class="">
+                                <a class="" href="HomePage.html">Trang chủ</a>
+                            </li>
+                            <li class="">
+                                <a class="" href="Error.html">Giới thiệu</a>
+                            </li>
+                            <li class="">
+                                <a class="" href="#">Khóa học</a>
+                            </li>
+                            <li class="">
+                                <a class="" href="Blog.html">Sự kiện</a>
+                            </li>
+                            <li class="">
+                                <a class="" href="Error.html">Tin tức</a>
+                            </li>
+                            <li class="">
+                                <a class="" href="Contact.html">Liên hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer d-block d-lg-none">
+        <div class="up-footer" style="border-bottom: 1px solid gray;">
+            <div class="row">
+                <div class="col-md-12" style="margin-left:40px;">
+                    <ul style="margin-left:-40px;">
+                        <li>
+                            <img src="logo2_03.png" style="padding-bottom:20px" />
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="content">
+                                Tầng 4 - Tòa nhà Hanoi Group - 442 Đội Cấn
+                                Ba Đình - Hà Nội
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-mobile-alt"></i>
+                            <div class="content">
+                                (84-4) 66558868 -  (84-4) 37868904
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <div class="content">
+                                support@bizweb.vn
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                        <li><h5>TÀI KHOẢN</h5></li>
+                        <li><a href="Register.html">Đăng kí</a></li>
+                        <li><a href="Login.html">Đăng nhập</a></li>
+                        <li><a href="#">Giỏ hàng</a></li>
+                        <li><a href="#">Tìm kiếm</a></li>
+                        <li><a href="#">Tin tức</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                        <li><h5>CHÍNH SÁCH</h5></li>
+                        <li><a href="#">Chính sách mua hàng</a></li>
+                        <li><a href="#">Chính sách đãi ngộ</a></li>
+                        <li><a href="#">Thông tin khách hàng</a></li>
+                        <li><a href="#">Thông tin tuyển dụng</a></li>
+                        <li><a href="#">Đăng kí thành viên</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                        <li><h5>ĐIỀU KHOẢN</h5></li>
+                        <li><a href="#">Đăng kí tài khoản</a></li>
+                        <li><a href="#">Chính sách bảo hành</a></li>
+                        <li><a href="#">Chính sách đổi trả</a></li>
+                        <li><a href="#">Thông tin cá nhân</a></li>
+                        <li><a href="#">Trung tâm tư vấn</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                        <li><h5>HƯỚNG DẪN</h5></li>
+                        <li><a href="#">Hướng dẫn mua hàng</a></li>
+                        <li><a href="#">Hướng dẫn giao nhận</a></li>
+                        <li><a href="#">Hướng dẫn thanh toán</a></li>
+                        <li><a href="#">Câu hỏi thường gặp</a></li>
+                        <li><a href="#">Điều khoản dịch vụ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="down-footer">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        © 2015 Academi. Cung cấp bởi
+                        <span style="color:white">
+                            Bizweb
+                        </span>
+                    </p>
+                </div>
+                <ul>
+                    <li class="">
+                        <a class="" href="HomePage.html">Trang chủ</a>
+                    </li>
+                    <li class="">
+                        <a class="" href="Error.html">Giới thiệu</a>
+                    </li>
+                    <li class="">
+                        <a class="" href="#">Khóa học</a>
+                    </li>
+                    <li class="">
+                        <a class="" href="Blog.html">Sự kiện</a>
+                    </li>
+                    <li class="">
+                        <a class="" href="Error.html">Tin tức</a>
+                    </li>
+                    <li class="">
+                        <a class="" href="Contact.html">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
